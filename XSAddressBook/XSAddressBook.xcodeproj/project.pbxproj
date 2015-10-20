@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6698921BB64C1C007B8D56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698911BB64C1C007B8D56 /* main.m */; };
+		AB6698951BB64C1C007B8D56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698941BB64C1C007B8D56 /* AppDelegate.m */; };
+		AB66989B1BB64C1C007B8D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6698991BB64C1C007B8D56 /* Main.storyboard */; };
+		AB66989D1BB64C1D007B8D56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB66989C1BB64C1D007B8D56 /* Images.xcassets */; };
+		AB6698A01BB64C1D007B8D56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB66989E1BB64C1D007B8D56 /* LaunchScreen.xib */; };
+		AB6698AC1BB64C1D007B8D56 /* XSAddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698AB1BB64C1D007B8D56 /* XSAddressBookTests.m */; };
+		AB6698BA1BB66FC8007B8D56 /* XSMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698B91BB66FC8007B8D56 /* XSMainTableViewController.m */; };
+		AB6698BD1BB67302007B8D56 /* XSAddingNewContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698BC1BB67302007B8D56 /* XSAddingNewContactViewController.m */; };
+		AB6698C11BB673D3007B8D56 /* XSAddingNewContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6698C01BB673D3007B8D56 /* XSAddingNewContactViewController.xib */; };
+		AB6698C41BB6786B007B8D56 /* XSGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698C31BB6786B007B8D56 /* XSGroup.m */; };
+		AB6698C71BB6790B007B8D56 /* XSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6698C61BB6790B007B8D56 /* XSPerson.m */; };
+		AB727B271BB95A9900D491F8 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = AB727B231BB95A9900D491F8 /* ChineseString.m */; };
+		AB727B291BB95A9900D491F8 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = AB727B251BB95A9900D491F8 /* pinyin.c */; };
+		AB8B193E1BC9049A003B1D08 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19241BC9049A003B1D08 /* .gitkeep */; };
+		AB8B193F1BC9049A003B1D08 /* NotificationBackgroundError.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19251BC9049A003B1D08 /* NotificationBackgroundError.png */; };
+		AB8B19401BC9049A003B1D08 /* NotificationBackgroundError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19261BC9049A003B1D08 /* NotificationBackgroundError@2x.png */; };
+		AB8B19411BC9049A003B1D08 /* NotificationBackgroundErrorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19271BC9049A003B1D08 /* NotificationBackgroundErrorIcon.png */; };
+		AB8B19421BC9049A003B1D08 /* NotificationBackgroundErrorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19281BC9049A003B1D08 /* NotificationBackgroundErrorIcon@2x.png */; };
+		AB8B19431BC9049A003B1D08 /* NotificationBackgroundMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19291BC9049A003B1D08 /* NotificationBackgroundMessage.png */; };
+		AB8B19441BC9049A003B1D08 /* NotificationBackgroundMessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B192A1BC9049A003B1D08 /* NotificationBackgroundMessage@2x.png */; };
+		AB8B19451BC9049A003B1D08 /* NotificationBackgroundSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B192B1BC9049A003B1D08 /* NotificationBackgroundSuccess.png */; };
+		AB8B19461BC9049A003B1D08 /* NotificationBackgroundSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B192C1BC9049A003B1D08 /* NotificationBackgroundSuccess@2x.png */; };
+		AB8B19471BC9049A003B1D08 /* NotificationBackgroundSuccessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B192D1BC9049A003B1D08 /* NotificationBackgroundSuccessIcon.png */; };
+		AB8B19481BC9049A003B1D08 /* NotificationBackgroundSuccessIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B192E1BC9049A003B1D08 /* NotificationBackgroundSuccessIcon@2x.png */; };
+		AB8B19491BC9049A003B1D08 /* NotificationBackgroundWarning.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B192F1BC9049A003B1D08 /* NotificationBackgroundWarning.png */; };
+		AB8B194A1BC9049A003B1D08 /* NotificationBackgroundWarning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19301BC9049A003B1D08 /* NotificationBackgroundWarning@2x.png */; };
+		AB8B194B1BC9049A003B1D08 /* NotificationBackgroundWarningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19311BC9049A003B1D08 /* NotificationBackgroundWarningIcon.png */; };
+		AB8B194C1BC9049A003B1D08 /* NotificationBackgroundWarningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19321BC9049A003B1D08 /* NotificationBackgroundWarningIcon@2x.png */; };
+		AB8B194D1BC9049A003B1D08 /* NotificationButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19331BC9049A003B1D08 /* NotificationButtonBackground.png */; };
+		AB8B194E1BC9049A003B1D08 /* NotificationButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19341BC9049A003B1D08 /* NotificationButtonBackground@2x.png */; };
+		AB8B194F1BC9049A003B1D08 /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = AB8B19351BC9049A003B1D08 /* TSMessagesDefaultDesign.json */; };
+		AB8B19501BC9049A003B1D08 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B19371BC9049A003B1D08 /* HexColors.m */; };
+		AB8B19511BC9049A003B1D08 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B19391BC9049A003B1D08 /* TSBlurView.m */; };
+		AB8B19521BC9049A003B1D08 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B193B1BC9049A003B1D08 /* TSMessage.m */; };
+		AB8B19531BC9049A003B1D08 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B193D1BC9049A003B1D08 /* TSMessageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6698A61BB64C1D007B8D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6698841BB64C1C007B8D56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB66988B1BB64C1C007B8D56;
+			remoteInfo = XSAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB66988C1BB64C1C007B8D56 /* XSAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6698901BB64C1C007B8D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6698911BB64C1C007B8D56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB6698931BB64C1C007B8D56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB6698941BB64C1C007B8D56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB66989A1BB64C1C007B8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB66989C1BB64C1D007B8D56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB66989F1BB64C1D007B8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB6698A51BB64C1D007B8D56 /* XSAddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSAddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6698AA1BB64C1D007B8D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6698AB1BB64C1D007B8D56 /* XSAddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAddressBookTests.m; sourceTree = "<group>"; };
+		AB6698B81BB66FC8007B8D56 /* XSMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSMainTableViewController.h; sourceTree = "<group>"; };
+		AB6698B91BB66FC8007B8D56 /* XSMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSMainTableViewController.m; sourceTree = "<group>"; };
+		AB6698BB1BB67302007B8D56 /* XSAddingNewContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSAddingNewContactViewController.h; sourceTree = "<group>"; };
+		AB6698BC1BB67302007B8D56 /* XSAddingNewContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSAddingNewContactViewController.m; sourceTree = "<group>"; };
+		AB6698C01BB673D3007B8D56 /* XSAddingNewContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSAddingNewContactViewController.xib; sourceTree = "<group>"; };
+		AB6698C21BB6786B007B8D56 /* XSGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSGroup.h; sourceTree = "<group>"; };
+		AB6698C31BB6786B007B8D56 /* XSGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSGroup.m; sourceTree = "<group>"; };
+		AB6698C51BB6790B007B8D56 /* XSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSPerson.h; sourceTree = "<group>"; };
+		AB6698C61BB6790B007B8D56 /* XSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPerson.m; sourceTree = "<group>"; };
+		AB727B221BB95A9900D491F8 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		AB727B231BB95A9900D491F8 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		AB727B251BB95A9900D491F8 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		AB727B261BB95A9900D491F8 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		AB8B19241BC9049A003B1D08 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		AB8B19251BC9049A003B1D08 /* NotificationBackgroundError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundError.png; sourceTree = "<group>"; };
+		AB8B19261BC9049A003B1D08 /* NotificationBackgroundError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundError@2x.png"; sourceTree = "<group>"; };
+		AB8B19271BC9049A003B1D08 /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
+		AB8B19281BC9049A003B1D08 /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
+		AB8B19291BC9049A003B1D08 /* NotificationBackgroundMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundMessage.png; sourceTree = "<group>"; };
+		AB8B192A1BC9049A003B1D08 /* NotificationBackgroundMessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundMessage@2x.png"; sourceTree = "<group>"; };
+		AB8B192B1BC9049A003B1D08 /* NotificationBackgroundSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundSuccess.png; sourceTree = "<group>"; };
+		AB8B192C1BC9049A003B1D08 /* NotificationBackgroundSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundSuccess@2x.png"; sourceTree = "<group>"; };
+		AB8B192D1BC9049A003B1D08 /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
+		AB8B192E1BC9049A003B1D08 /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
+		AB8B192F1BC9049A003B1D08 /* NotificationBackgroundWarning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundWarning.png; sourceTree = "<group>"; };
+		AB8B19301BC9049A003B1D08 /* NotificationBackgroundWarning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundWarning@2x.png"; sourceTree = "<group>"; };
+		AB8B19311BC9049A003B1D08 /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
+		AB8B19321BC9049A003B1D08 /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
+		AB8B19331BC9049A003B1D08 /* NotificationButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationButtonBackground.png; sourceTree = "<group>"; };
+		AB8B19341BC9049A003B1D08 /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
+		AB8B19351BC9049A003B1D08 /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+		AB8B19361BC9049A003B1D08 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		AB8B19371BC9049A003B1D08 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		AB8B19381BC9049A003B1D08 /* TSBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBlurView.h; sourceTree = "<group>"; };
+		AB8B19391BC9049A003B1D08 /* TSBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBlurView.m; sourceTree = "<group>"; };
+		AB8B193A1BC9049A003B1D08 /* TSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessage.h; sourceTree = "<group>"; };
+		AB8B193B1BC9049A003B1D08 /* TSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessage.m; sourceTree = "<group>"; };
+		AB8B193C1BC9049A003B1D08 /* TSMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessageView.h; sourceTree = "<group>"; };
+		AB8B193D1BC9049A003B1D08 /* TSMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6698891BB64C1C007B8D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6698A21BB64C1D007B8D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6698831BB64C1C007B8D56 = {
+			isa = PBXGroup;
+			children = (
+				AB66988E1BB64C1C007B8D56 /* XSAddressBook */,
+				AB6698A81BB64C1D007B8D56 /* XSAddressBookTests */,
+				AB66988D1BB64C1C007B8D56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB66988D1BB64C1C007B8D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB66988C1BB64C1C007B8D56 /* XSAddressBook.app */,
+				AB6698A51BB64C1D007B8D56 /* XSAddressBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB66988E1BB64C1C007B8D56 /* XSAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				AB727B1F1BB95A8300D491F8 /* Libraries */,
+				AB6698B51BB64D49007B8D56 /* Controllers */,
+				AB6698B61BB64D49007B8D56 /* Models */,
+				AB6698B71BB64D49007B8D56 /* Views */,
+				AB6698931BB64C1C007B8D56 /* AppDelegate.h */,
+				AB6698941BB64C1C007B8D56 /* AppDelegate.m */,
+				AB6698991BB64C1C007B8D56 /* Main.storyboard */,
+				AB66989C1BB64C1D007B8D56 /* Images.xcassets */,
+				AB66989E1BB64C1D007B8D56 /* LaunchScreen.xib */,
+				AB66988F1BB64C1C007B8D56 /* Supporting Files */,
+			);
+			path = XSAddressBook;
+			sourceTree = "<group>";
+		};
+		AB66988F1BB64C1C007B8D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6698901BB64C1C007B8D56 /* Info.plist */,
+				AB6698911BB64C1C007B8D56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB6698A81BB64C1D007B8D56 /* XSAddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6698AB1BB64C1D007B8D56 /* XSAddressBookTests.m */,
+				AB6698A91BB64C1D007B8D56 /* Supporting Files */,
+			);
+			path = XSAddressBookTests;
+			sourceTree = "<group>";
+		};
+		AB6698A91BB64C1D007B8D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6698AA1BB64C1D007B8D56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB6698B51BB64D49007B8D56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB6698B81BB66FC8007B8D56 /* XSMainTableViewController.h */,
+				AB6698B91BB66FC8007B8D56 /* XSMainTableViewController.m */,
+				AB6698BB1BB67302007B8D56 /* XSAddingNewContactViewController.h */,
+				AB6698BC1BB67302007B8D56 /* XSAddingNewContactViewController.m */,
+				AB6698C01BB673D3007B8D56 /* XSAddingNewContactViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB6698B61BB64D49007B8D56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB6698C21BB6786B007B8D56 /* XSGroup.h */,
+				AB6698C31BB6786B007B8D56 /* XSGroup.m */,
+				AB6698C51BB6790B007B8D56 /* XSPerson.h */,
+				AB6698C61BB6790B007B8D56 /* XSPerson.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB6698B71BB64D49007B8D56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB727B1F1BB95A8300D491F8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B19221BC9049A003B1D08 /* TSMessage */,
+				AB727B201BB95A9900D491F8 /* ChineseSort */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		AB727B201BB95A9900D491F8 /* ChineseSort */ = {
+			isa = PBXGroup;
+			children = (
+				AB727B221BB95A9900D491F8 /* ChineseString.h */,
+				AB727B231BB95A9900D491F8 /* ChineseString.m */,
+				AB727B251BB95A9900D491F8 /* pinyin.c */,
+				AB727B261BB95A9900D491F8 /* pinyin.h */,
+			);
+			path = ChineseSort;
+			sourceTree = "<group>";
+		};
+		AB8B19221BC9049A003B1D08 /* TSMessage */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B19231BC9049A003B1D08 /* Assets */,
+				AB8B19361BC9049A003B1D08 /* HexColors.h */,
+				AB8B19371BC9049A003B1D08 /* HexColors.m */,
+				AB8B19381BC9049A003B1D08 /* TSBlurView.h */,
+				AB8B19391BC9049A003B1D08 /* TSBlurView.m */,
+				AB8B193A1BC9049A003B1D08 /* TSMessage.h */,
+				AB8B193B1BC9049A003B1D08 /* TSMessage.m */,
+				AB8B193C1BC9049A003B1D08 /* TSMessageView.h */,
+				AB8B193D1BC9049A003B1D08 /* TSMessageView.m */,
+			);
+			path = TSMessage;
+			sourceTree = "<group>";
+		};
+		AB8B19231BC9049A003B1D08 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B19241BC9049A003B1D08 /* .gitkeep */,
+				AB8B19251BC9049A003B1D08 /* NotificationBackgroundError.png */,
+				AB8B19261BC9049A003B1D08 /* NotificationBackgroundError@2x.png */,
+				AB8B19271BC9049A003B1D08 /* NotificationBackgroundErrorIcon.png */,
+				AB8B19281BC9049A003B1D08 /* NotificationBackgroundErrorIcon@2x.png */,
+				AB8B19291BC9049A003B1D08 /* NotificationBackgroundMessage.png */,
+				AB8B192A1BC9049A003B1D08 /* NotificationBackgroundMessage@2x.png */,
+				AB8B192B1BC9049A003B1D08 /* NotificationBackgroundSuccess.png */,
+				AB8B192C1BC9049A003B1D08 /* NotificationBackgroundSuccess@2x.png */,
+				AB8B192D1BC9049A003B1D08 /* NotificationBackgroundSuccessIcon.png */,
+				AB8B192E1BC9049A003B1D08 /* NotificationBackgroundSuccessIcon@2x.png */,
+				AB8B192F1BC9049A003B1D08 /* NotificationBackgroundWarning.png */,
+				AB8B19301BC9049A003B1D08 /* NotificationBackgroundWarning@2x.png */,
+				AB8B19311BC9049A003B1D08 /* NotificationBackgroundWarningIcon.png */,
+				AB8B19321BC9049A003B1D08 /* NotificationBackgroundWarningIcon@2x.png */,
+				AB8B19331BC9049A003B1D08 /* NotificationButtonBackground.png */,
+				AB8B19341BC9049A003B1D08 /* NotificationButtonBackground@2x.png */,
+				AB8B19351BC9049A003B1D08 /* TSMessagesDefaultDesign.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB66988B1BB64C1C007B8D56 /* XSAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6698AF1BB64C1D007B8D56 /* Build configuration list for PBXNativeTarget "XSAddressBook" */;
+			buildPhases = (
+				AB6698881BB64C1C007B8D56 /* Sources */,
+				AB6698891BB64C1C007B8D56 /* Frameworks */,
+				AB66988A1BB64C1C007B8D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSAddressBook;
+			productName = XSAddressBook;
+			productReference = AB66988C1BB64C1C007B8D56 /* XSAddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB6698A41BB64C1D007B8D56 /* XSAddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6698B21BB64C1D007B8D56 /* Build configuration list for PBXNativeTarget "XSAddressBookTests" */;
+			buildPhases = (
+				AB6698A11BB64C1D007B8D56 /* Sources */,
+				AB6698A21BB64C1D007B8D56 /* Frameworks */,
+				AB6698A31BB64C1D007B8D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6698A71BB64C1D007B8D56 /* PBXTargetDependency */,
+			);
+			name = XSAddressBookTests;
+			productName = XSAddressBookTests;
+			productReference = AB6698A51BB64C1D007B8D56 /* XSAddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6698841BB64C1C007B8D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XS;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					AB66988B1BB64C1C007B8D56 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					AB6698A41BB64C1D007B8D56 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = AB66988B1BB64C1C007B8D56;
+					};
+				};
+			};
+			buildConfigurationList = AB6698871BB64C1C007B8D56 /* Build configuration list for PBXProject "XSAddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6698831BB64C1C007B8D56;
+			productRefGroup = AB66988D1BB64C1C007B8D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB66988B1BB64C1C007B8D56 /* XSAddressBook */,
+				AB6698A41BB64C1D007B8D56 /* XSAddressBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB66988A1BB64C1C007B8D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8B19451BC9049A003B1D08 /* NotificationBackgroundSuccess.png in Resources */,
+				AB8B19421BC9049A003B1D08 /* NotificationBackgroundErrorIcon@2x.png in Resources */,
+				AB8B194A1BC9049A003B1D08 /* NotificationBackgroundWarning@2x.png in Resources */,
+				AB8B19411BC9049A003B1D08 /* NotificationBackgroundErrorIcon.png in Resources */,
+				AB8B19491BC9049A003B1D08 /* NotificationBackgroundWarning.png in Resources */,
+				AB8B194E1BC9049A003B1D08 /* NotificationButtonBackground@2x.png in Resources */,
+				AB6698C11BB673D3007B8D56 /* XSAddingNewContactViewController.xib in Resources */,
+				AB8B19441BC9049A003B1D08 /* NotificationBackgroundMessage@2x.png in Resources */,
+				AB66989B1BB64C1C007B8D56 /* Main.storyboard in Resources */,
+				AB8B193E1BC9049A003B1D08 /* .gitkeep in Resources */,
+				AB8B193F1BC9049A003B1D08 /* NotificationBackgroundError.png in Resources */,
+				AB6698A01BB64C1D007B8D56 /* LaunchScreen.xib in Resources */,
+				AB8B19471BC9049A003B1D08 /* NotificationBackgroundSuccessIcon.png in Resources */,
+				AB8B194D1BC9049A003B1D08 /* NotificationButtonBackground.png in Resources */,
+				AB8B194F1BC9049A003B1D08 /* TSMessagesDefaultDesign.json in Resources */,
+				AB8B194B1BC9049A003B1D08 /* NotificationBackgroundWarningIcon.png in Resources */,
+				AB8B19461BC9049A003B1D08 /* NotificationBackgroundSuccess@2x.png in Resources */,
+				AB8B19401BC9049A003B1D08 /* NotificationBackgroundError@2x.png in Resources */,
+				AB8B19431BC9049A003B1D08 /* NotificationBackgroundMessage.png in Resources */,
+				AB66989D1BB64C1D007B8D56 /* Images.xcassets in Resources */,
+				AB8B194C1BC9049A003B1D08 /* NotificationBackgroundWarningIcon@2x.png in Resources */,
+				AB8B19481BC9049A003B1D08 /* NotificationBackgroundSuccessIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6698A31BB64C1D007B8D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6698881BB64C1C007B8D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6698BD1BB67302007B8D56 /* XSAddingNewContactViewController.m in Sources */,
+				AB6698C71BB6790B007B8D56 /* XSPerson.m in Sources */,
+				AB6698951BB64C1C007B8D56 /* AppDelegate.m in Sources */,
+				AB8B19501BC9049A003B1D08 /* HexColors.m in Sources */,
+				AB6698C41BB6786B007B8D56 /* XSGroup.m in Sources */,
+				AB8B19521BC9049A003B1D08 /* TSMessage.m in Sources */,
+				AB6698921BB64C1C007B8D56 /* main.m in Sources */,
+				AB8B19511BC9049A003B1D08 /* TSBlurView.m in Sources */,
+				AB6698BA1BB66FC8007B8D56 /* XSMainTableViewController.m in Sources */,
+				AB8B19531BC9049A003B1D08 /* TSMessageView.m in Sources */,
+				AB727B291BB95A9900D491F8 /* pinyin.c in Sources */,
+				AB727B271BB95A9900D491F8 /* ChineseString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6698A11BB64C1D007B8D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6698AC1BB64C1D007B8D56 /* XSAddressBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB6698A71BB64C1D007B8D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB66988B1BB64C1C007B8D56 /* XSAddressBook */;
+			targetProxy = AB6698A61BB64C1D007B8D56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB6698991BB64C1C007B8D56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB66989A1BB64C1C007B8D56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB66989E1BB64C1D007B8D56 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB66989F1BB64C1D007B8D56 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB6698AD1BB64C1D007B8D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB6698AE1BB64C1D007B8D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6698B01BB64C1D007B8D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XSAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB6698B11BB64C1D007B8D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XSAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB6698B31BB64C1D007B8D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XSAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSAddressBook.app/XSAddressBook";
+			};
+			name = Debug;
+		};
+		AB6698B41BB64C1D007B8D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XSAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSAddressBook.app/XSAddressBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6698871BB64C1C007B8D56 /* Build configuration list for PBXProject "XSAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6698AD1BB64C1D007B8D56 /* Debug */,
+				AB6698AE1BB64C1D007B8D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6698AF1BB64C1D007B8D56 /* Build configuration list for PBXNativeTarget "XSAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6698B01BB64C1D007B8D56 /* Debug */,
+				AB6698B11BB64C1D007B8D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6698B21BB64C1D007B8D56 /* Build configuration list for PBXNativeTarget "XSAddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6698B31BB64C1D007B8D56 /* Debug */,
+				AB6698B41BB64C1D007B8D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6698841BB64C1C007B8D56 /* Project object */;
+}
